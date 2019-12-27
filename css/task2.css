@@ -5,17 +5,41 @@
   font-size: 16 px;
 }
 
-.blog-title h1 {
-  font-size: 18 px;
+.blog-head a {
+  text-decoration: none;
 }
 
-.blog-title a {
+.blog-nav li {
+  list-style-type: none;
+}
+
+.blog-nav a {
   color: inherit;
   font-size: inherit;
   text-decoration: none;
 }
 
-.blog-title a:hover,
-.blog-title a:focus {
+.blog-nav a:hover,
+.blog-nav a:focus {
   color: #2196f3;
+}
+
+.blog-head {
+  display: inline-flex;
+}
+
+.list {
+  display: inline-flex;
+  padding: 12px 20px 12px 20px;
+}
+
+.blog-title {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-nav :not(:first-child) {
+  margin-left: 12px;
 }
