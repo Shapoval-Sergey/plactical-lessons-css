@@ -1,0 +1,9 @@
+.list {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 16 px;
+}
+
+.list-item:not(:first-child) {
+  margin-top: 16px;
+}
